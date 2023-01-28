@@ -1,0 +1,11 @@
+Last metadata expiration check: 0:51:00 ago on Fri 27 Jan 2023 02:16:23 PM EST.
+dlib-devel-19.24-4.20220905git65bce59a1.fc37.i686 : Development files for dlib
+Repo        : fedora
+Matched from:
+Filename    : /usr/include/dlib/gui_core/xlib.h
+
+dlib-devel-19.24-4.20220905git65bce59a1.fc37.x86_64 : Development files for dlib
+Repo        : fedora
+Matched from:
+Filename    : /usr/include/dlib/gui_core/xlib.h
+
