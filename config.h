@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "爵", "切", "", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "1", "爵", "切", "4", "5", "6", "7", "8", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -27,8 +27,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Brave",  NULL,       NULL,       	2,       0,           -1 },
-	{ "KeePassXC",  NULL,       NULL,     8 ,       0,           -1 },
+	{ "Brave",  NULL,       NULL,       	1 << 1,       0,           -1 },
+	{ "KeePassXC",  NULL,       NULL,     1 << 8 ,       0,           -1 },
+	{ "Telegram",  NULL,       NULL,     1 << 2,       0,           -1 },
 };
 
 /* layout(s) */
